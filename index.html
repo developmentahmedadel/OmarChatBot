@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="chatBox" class="chatBox d-non">
+
+            <div class="chat-header">
+
+            <div class="d-flex w-100 flex-wrap justify-content-between  align-items-center">
+
+            <div class="chat-icon  d-flex  flex-wrap justify-content-center  align-items-center">
+
+                <div class="chat-icon-img">
+                    <img src="saudia-chat-icon.png">
+                </div>
+                
+                <div class="chat-name">
+                 Saudia 
+                 <div style="color: rgb(0, 128, 62);">Online </div>
+                </div>
+
+            </div>
+              
+            <div id="chat-close" class="chat-close ">
+                <svg  width="16" height="16" fill="#333" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                 </svg>
+            </div>
+            
+
+            </div>
+        
+            </div>
+
+            <div id="chat-contet" class="chat-contet">
+
+            </div>
+    
+            <div class="chat-language">
+                <button id="language-english">English</button>
+                <button id="language-arabic">العريية</button>
+            </div>
+
+            <div class="chat-input">
+                <button id="chat-send" class="chat-send">
+                    <svg  width="16" height="16" fill="#00803E" class="bi bi-send" viewBox="0 0 16 16">
+                        <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+                    </svg>
+                </button>
+                <input id="chat-message" placeholder="Type your message" class="input-message" type="text" name="message" >
+            </div>
+
+    </div>
+     
+
+    <div class="chat-button-outer">
+
+        <div class="chat-info">
+            Try the Travel Companion now
+        </div>
+
+        <button id="chat-btn" type="button" class="chat-btn">
+            <img src="saudia-chat-icon.png"></button>
+    </div>
+
+
+
+
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
