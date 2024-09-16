@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 $(document).on('click','#chat-btn',function(){
     $('#chatBox').removeClass('d-none')
+    $('#chat-button-outer').addClass('d-none')
     $('#chat-contet').empty()
     AppendHtml('')
 })
@@ -15,6 +16,7 @@ $(document).keydown(function(e){
 })
 $(document).on('click','#chat-close',function(){
     $('#chatBox').addClass('d-none')
+    $('#chat-button-outer').removeClass('d-none')
 })
 $(document).on('click','#language-english',function(){
     AppendHtml('en')
